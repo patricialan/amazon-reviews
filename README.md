@@ -22,8 +22,12 @@ Whether V reviewers are trustworthy probably doesn't deserve a yes/no answer. Co
 Thus, a consumer approach to shopping for electronics on Amazon may be to pay more attention when there are extreme star ratings (5 or 1-2 star) because, probably, unincentived reviewers thought the product was great or horrible and took time to make their thoughts known. Also, the consumer may do well to read the written reviews more carefully for products with 4-3 star ratings since paid reviewers likely took time to provide helpful reviews. 
 
 ## Resources
+### Data & Analysis Files
 - [Amazon electronics reviews dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Electronics_v1_00.tsv.gz) 
 - [Amazon dataset instructions](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 - [ETL PySpark script](https://colab.research.google.com/drive/1GBQekxmvJoOzn_ma-y8UWk1SIRmEpm8V?usp=sharing)
 - PostgreSQL database schema: [schema.sql](analysis/schema.sql)
 - SQL queries: [queries.sql](analysis/queries.sql)
+
+### Software
+- Amazon Relational Database Service (Amazon RDS), Google Colaboratory, spark 3.0.0, Python 3.8.2, PostgreSQL 12.3, pgAdmin4.14
